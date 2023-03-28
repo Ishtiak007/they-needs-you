@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bannar{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.paragraph{
+    font-size: 20px;
+    color: rgb(208, 202, 194);
+    margin: 10px 0 40px;
+}
+.btn{
+    display: inline-block;
+    background-color: rgb(243, 75, 75);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    border: none;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width: 700px) {
+    .text-box h1{
+        font-size: 35px;
+    }
+}
+/* bannar section ends here */
+
+
+
+
+/* donate today starts here */
+.donate-today{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;  
+}
+p{
+    font-size: 15px;
+    padding: 10px;
+    line-height: 22px;
+}
+.amount-selection{
+    padding: 70px;
+}
+.amount{
+    font-size: 24px;
+    padding-left: 20px;
+}
+#border-amount{
+    border: 2px solid rgb(243, 88, 119);
+    font-size: 37px;
+    padding: 7px;
+    color: rgb(243, 88, 119);
+    padding-left: 9px;
+    margin-left: 9px;
+}
+/* .input-selector{
+    width: 450px;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 0 10px rgba(0,0,0,0,0.1);
+} */
+
+.input-area-class{
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+}
+label{
+    position: absolute;
+    align-items: center;
+    
+}
+@media (max-width:700px) {
+    .amount{
+        font-size: 30px;
+    }
+}
+/* donate today ends here */
+
+
+/* our donate plan starts here */
+.card-container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.card{
+    flex-basis: 30%;
+    background: rgb(224, 191, 149);
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    text-align: left;
+    float: left;
+}
+.special-color{
+    background-color: rgb(246, 188, 112);
+}
+@media (max-width:900px) {
+    .card-container{
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px) {
+    .card-container{
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+/* our donate plan ends here */
+
+
+
+/* image section starts here */
+.need-you{
+    width: 450px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(241, 72, 72);
+}
+.img-section{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* image section ends here */
+
+.get-my-update{
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.email-sbscrb-container{
+    height: 200px;
+    width: 420px;
+    background-color: #fbc7cf;
+    /* width: 80%; */
+    margin: auto;
+    text-align: right;
+    padding-top: 100px;
+}
+.update-desc h2{
+    font-size: 35px;
+}
+.update-desc p{
+    font-size: 19px;
+    padding-bottom: 16px;
+}
+.subscribe-btn{
+    padding: 7px;
+    background-color: rgb(241, 72, 72);
+    border-radius: 3px;
+}
+.email-sbscrb-container .input{
+    padding: 7px;
+    width: 200px;
+    background-color: silver;
+    border-radius: 3px;
+}
+footer{
+    margin-top: 100px;
+    background-color: rgb(45, 41, 41);
+    height: 100px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-heading{
+    color: red;
+    font-size: 30px;
+}
