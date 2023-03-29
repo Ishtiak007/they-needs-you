@@ -175,15 +175,15 @@ label{
     padding-top: 100px;
 }
 
-.email-sbscrb-container{
+/* .email-sbscrb-container{
     height: 200px;
-    width: 420px;
+    width: 450px;
     background-color: #fbc7cf;
     /* width: 80%; */
-    margin: auto;
+    /* margin: auto;
     text-align: right;
     padding-top: 100px;
-}
+} */ 
 .update-desc h2{
     font-size: 35px;
 }
@@ -191,17 +191,17 @@ label{
     font-size: 19px;
     padding-bottom: 16px;
 }
-.subscribe-btn{
-    padding: 7px;
+/* .subscribe-btn{
+    /* padding-right: -15px; */
+    /* margin-left: -5px;
     background-color: rgb(241, 72, 72);
-    border-radius: 3px;
-}
-.email-sbscrb-container .input{
+} */ 
+/* .email-sbscrb-container .input{
     padding: 7px;
     width: 200px;
     background-color: silver;
-    border-radius: 3px;
-}
+    text-align: left;
+} */
 footer{
     margin-top: 100px;
     background-color: rgb(45, 41, 41);
@@ -216,4 +216,52 @@ footer{
 .footer-heading{
     color: red;
     font-size: 30px;
+}
+/* .subscribe-btn .input{
+    margin-left: 30px;
+    position: absolute;
+    align-items: center;
+} */
+/* .buttnn{
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+} */
+/* .footer-input{
+    border: none;
+    padding: 7px;
+    width: 300px;
+    text-align: center;
+}
+#subscribe .buttnn{
+    position: absolute;
+    display: flex;
+    align-items: center;
+} */
+.email-sbscrb-container{
+    position: relative;
+    height: 200px;
+    width: 350px;
+    background-color: pink;
+    margin: auto;
+    text-align: center;
+}
+.email-and-sbscrb{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 80px;
+    text-align: center;
+    align-items: center;
+}
+#email-input{
+    padding: 5px;
+    background-color: rgb(165, 162, 162);
+    margin-left: 10px;
+    border: none;
+}
+#subscribe-btn{
+    padding: 5px;
+    border: none;
+    margin-right: 20px;
+    background-color: rgb(237, 51, 97);
 }
